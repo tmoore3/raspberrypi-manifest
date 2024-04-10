@@ -16,8 +16,8 @@ PATH=${PATH}:~/bin
 ### Sync Repo
 
 ```bash
-mkdir yocto-rpi
-cd yocto-rpi
+mkdir yocto-raspberrypi
+cd yocto-raspberrypi
 repo init -u https://github.com/tmoore3/raspberrypi-manifest.git
 repo sync
 ```
