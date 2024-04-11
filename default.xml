@@ -2,6 +2,7 @@
 <manifest>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
   <remote name="oe" fetch="git://git.openembedded.org"/>
+  <remote name="sbabic" fetch="git://github.com/sbabic"/>
 
   <default remote="oe"/>
 
@@ -9,4 +10,5 @@
  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="kirkstone"/>
  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="kirkstone"/>
  <project name="meta-openembedded" path="sources/meta-openembedded" revision="kirkstone"/>
+ <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="kirkstone"/>
 </manifest>
