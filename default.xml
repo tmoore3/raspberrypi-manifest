@@ -5,8 +5,8 @@
 
   <default remote="oe"/>
 
- <project name="poky" path="sources/poky" remote="yocto" revision="mickledore"/>
- <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="mickledore"/>
- <project name="meta-security" path="sources/meta-security" remote="yocto" revision="mickledore"/>
- <project name="meta-openembedded" path="sources/meta-openembedded" revision="mickledore"/>
+ <project name="poky" path="sources/poky" remote="yocto" revision="kirkstone"/>
+ <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="kirkstone"/>
+ <project name="meta-security" path="sources/meta-security" remote="yocto" revision="kirkstone"/>
+ <project name="meta-openembedded" path="sources/meta-openembedded" revision="kirkstone"/>
 </manifest>
