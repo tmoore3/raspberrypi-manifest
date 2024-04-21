@@ -2,7 +2,7 @@
 <manifest>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
   <remote name="oe" fetch="git://git.openembedded.org"/>
-  <remote name="tmoore3" fetch="git://github.com/tmoore3"/>
+  <remote name="tmoore3" fetch="https://github.com/tmoore3"/>
   <default remote="oe"/>
 
  <project name="poky" path="sources/poky" remote="yocto" revision="kirkstone"/>
