@@ -9,5 +9,5 @@
  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="kirkstone"/>
  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="kirkstone"/>
  <project name="meta-openembedded" path="sources/meta-openembedded" revision="kirkstone"/>
- <project name="meta-tmoore3-raspberrypi" path="sources/meta-tmoore3-raspberrypi" revision="kirkstone"/>
+ <project name="meta-tmoore3-raspberrypi" path="sources/meta-tmoore3-raspberrypi" remote="tmoore3" revision="kirkstone"/>
 </manifest>
